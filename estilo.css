@@ -16,9 +16,9 @@ h4{font-family: 'Righteous', cursive; font-weight:450;}
 
 h5, h6{font-weight:700;}
 
-h1{letter-spacing:0.1em; color:rgba(255,255,255,0.75);}
+h1{letter-spacing:0.1em; color:rgba(0,0,0,0.75);}
 
-h2{letter-spacing:0.02em; color:rgba(255,255,255,0.5); padding:0.2em 0; }
+h2{letter-spacing:0.02em; color:rgba(0,0,0,0.5); padding:0.2em 0; }
 
 h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
 
@@ -85,10 +85,11 @@ video{
 	min-height:300px;
 	text-align:left;
 	background-color:rgba(0,240,240,0.2);
-	background-image:url('media/dupla-01.jpg');
+	background-image:url('media/Euge.png');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
+
 }
 .primera h4{padding: 2% 40% 1% 2%;}
 
@@ -102,7 +103,7 @@ video{
 	min-height:300px;
 	text-align:right;
 	background-color:rgba(0,200,240,0.3);
-	background-image:url('media/dupla-02.jpg');
+	background-image:url('media/Ro.png');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -167,10 +168,6 @@ video{
 .item:hover{cursor:crosshair;}
 
 .item:hover figure img{
-	-webkit-transform:scale(5);
-	-moz-transform:scale(5);
-	-ms-transform:scale(5);
-	transform:scale(5);
 	-webkit-transition:-webkit-transform ease-out 1s;
 	-moz-transition:-moz-transform ease-out 1s;
 	-ms-transition:-ms-transform ease-out 1s;
